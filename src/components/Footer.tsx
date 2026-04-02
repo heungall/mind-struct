@@ -8,19 +8,13 @@ export default function Footer() {
         <div className="flex gap-8">
           <a
             className="font-body text-xs tracking-widest uppercase text-slate-400 hover:underline"
-            href="#"
-          >
-            Privacy Policy
-          </a>
-          <a
-            className="font-body text-xs tracking-widest uppercase text-slate-400 hover:underline"
-            href="#"
+            href="/terms"
           >
             Terms of Service
           </a>
           <a
             className="font-body text-xs tracking-widest uppercase text-slate-400 hover:underline"
-            href="#"
+            href="/contact"
           >
             Contact
           </a>
