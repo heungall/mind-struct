@@ -18,10 +18,10 @@ export default function AdBanner() {
   }, []);
 
   return (
-    <div ref={adRef} className="w-full flex justify-center py-8">
+    <div ref={adRef} className="w-full flex justify-center pt-8 pb-0">
       <ins
         className="kakao_ad_area"
-        style={{ display: "none", width: "100%" }}
+        style={{ display: "none" }}
         data-ad-unit="DAN-fXhpWzbN01UXBhD4"
         data-ad-width="320"
         data-ad-height="100"
