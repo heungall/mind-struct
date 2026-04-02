@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Header from "@/components/Header";
 import ResultSection from "@/components/ResultSection";
+import AdBanner from "@/components/AdBanner";
 import Footer from "@/components/Footer";
 
 export interface StructuredResult {
@@ -169,6 +170,7 @@ export default function Home() {
         </div>
       </main>
 
+      <AdBanner />
       <Footer />
     </>
   );
