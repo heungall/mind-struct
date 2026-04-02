@@ -1,9 +1,9 @@
 export default function Footer() {
   return (
-    <footer className="w-full py-12 mt-24 bg-slate-50 border-t border-slate-200/20">
+    <footer className="w-full py-8 mt-4 bg-slate-50 border-t border-slate-200/20">
       <div className="flex flex-col items-center justify-center gap-4 text-center w-full max-w-screen-2xl mx-auto px-6">
         <p className="font-body text-xs tracking-widest uppercase opacity-60">
-          &copy; 2024 Mind Struct. An Editorial Sanctuary for the Mind.
+          &copy; 2026 Mind Struct. An Editorial Sanctuary for the Mind.
         </p>
         <div className="flex gap-8">
           <a
